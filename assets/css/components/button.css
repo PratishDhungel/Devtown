@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+
+
+.btn.btn-primary {
+    background-color:#095ADE;
+}
+
+.btn.btn-primary:hover {
+    background-color:#ffffff;
+    color: #095ADE;
+    border-color: #095ADE;
+}
+.btn.btn-secondary {
+    background-color: #1C1C1C;
+}
+
+.btn.btn-secondary:hover {
+    background-color:#ffffff;
+    color: #1C1C1C;
+    border-color: #1C1C1C;
+}
+

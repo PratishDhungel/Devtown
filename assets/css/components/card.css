@@ -1,0 +1,14 @@
+.card-courses{
+    width: 384px;
+    background-color: #F5F8FE;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.card-courses p{
+    line-height: 28px;
+}
+
+.card-courses-icon{
+    margin-bottom: 16px;
+}
