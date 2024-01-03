@@ -5,4 +5,8 @@
 @import "./assets/css/components/button.css";
 @import "./assets/css/components/card.css";
 
+
+/* modules css */
+@import "./assets/css/modules/block-learn.css"
+
 /* page css */
