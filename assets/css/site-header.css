@@ -1,0 +1,41 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 34px 0 100px 0;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.middle-menu a{
+ color: #181818;;
+}
+
+.signup-login .signup{
+    color: #095ADE;
+}
+
+.signup-login .login{
+    color: white;
+    background-color: #095ADE;
+    border-radius: 8px;
+    width: 83px;
+    text-align: center;
+    padding: 12px;
+}
+
+.middle-menu{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-login{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

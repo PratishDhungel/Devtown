@@ -1,41 +1,27 @@
-/* .block-learn_more{
+.block-learn_more {
     width: 100%;
-    height: 512px;
-    background: url(../../images/Rectangle\ 30.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.block-learn_more::before{
-    content: '';
-    background: url(../../images/Mask\ group.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 512px;
-    position: absolute;
-} */
-
-.block-learn_more{
-    width: 100%;
-    height: 512px;
-  background-color: #095ADE;
+    min-height: 512px;
+    background-color: #095ADE;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
-/* .block-learn_moreA{
-    background: url('../../images/Mask\ group.png') ;
-} */
+.block-learn_more img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+}
 
 
-.more_info{
+.more_info {
     color: white;
     text-align: center;
 }
-

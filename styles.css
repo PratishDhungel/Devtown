@@ -8,8 +8,13 @@
 
 
 /* modules css */
+@import "./assets/css/modules/explore-courses.css";
 @import "./assets/css/modules/block-learn.css";
 @import "./assets/css/modules/block-courses.css";
-@import "./assets/css/modules/block-learn_more.css"
+@import "./assets/css/modules/block-learn_more.css";
+@import "./assets/css/modules/universities_companies.css";
+
+/* Header */
+@import "./assets/css/site-header.css";
 
 /* page css */

@@ -1,0 +1,9 @@
+.explore-courses__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-courses{
+    margin-bottom: 100px;
+}
