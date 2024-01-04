@@ -1,0 +1,12 @@
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-courses {
+    margin: 24px;
+}
+
+h2 {
+    text-align: center;
+}

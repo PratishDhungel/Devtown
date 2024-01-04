@@ -4,9 +4,12 @@
 /* components css */
 @import "./assets/css/components/button.css";
 @import "./assets/css/components/card.css";
+@import "./assets/css/components/circle.css";
 
 
 /* modules css */
-@import "./assets/css/modules/block-learn.css"
+@import "./assets/css/modules/block-learn.css";
+@import "./assets/css/modules/block-courses.css";
+@import "./assets/css/modules/block-learn_more.css"
 
 /* page css */

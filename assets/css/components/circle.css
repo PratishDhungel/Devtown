@@ -1,0 +1,39 @@
+/* .circle{
+    margin-bottom: 25px;
+    background-color: #095ADE;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smCircle{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+} */
+
+.hello{
+    background-color: #095ADE;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    position: relative;
+   
+}
+
+.hello::before{
+    position: absolute;
+    content: ' ';
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+  
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
