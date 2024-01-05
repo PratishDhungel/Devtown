@@ -23,23 +23,18 @@
     height: 30px;
     border-radius: 30px;
     position: absolute;
-    transform:translate(-60px, 8px) ;
-    /* right: 55px;
-    top: 35px;*/
+    transform:translate(-204%, 17%) ;
 } 
 
 .registered h3::after {
     content: '';
     display: block;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 15px;
     height: 15px;
     border-radius: 15px;
     position: absolute;
-    transform:translate(-60px, -20px);
-    /* transform: scale(0.5,0.5); */
-    /* left: 55px;
-    bottom: 35px; */
+    transform:translate(-360%, -180%);
 }
 
 .registered p{
