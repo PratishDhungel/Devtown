@@ -1,0 +1,9 @@
+.devtown_campus{
+margin-top: 100px;
+margin-bottom: 160px;
+}
+
+.devtown_campus__content{
+    display: flex;
+    align-items: center;
+}
