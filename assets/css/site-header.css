@@ -34,3 +34,7 @@
 .signup-login .btn{
     padding: 2px 25px;
 }
+
+.middle-menu a:hover{
+    color: #095ADE;
+   }
